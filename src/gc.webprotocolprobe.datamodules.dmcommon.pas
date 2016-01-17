@@ -1,4 +1,4 @@
-unit GC.WebProtocolProbe.DataModules.dmCommom;
+unit GC.WebProtocolProbe.DataModules.dmCommon;
 
 {$mode objfpc}{$H+}
 
@@ -7,10 +7,10 @@ interface
 uses
   Classes, SysUtils, FileUtil;
 
-{ TdmCommom }
+{ TDataModule1 }
 
 type
-  TdmCommom = class(TDataModule)
+  TDataModule1 = class(TDataModule)
   private
     { private declarations }
   public
@@ -18,7 +18,7 @@ type
   end;
 
 var
-  dmCommom: TdmCommom;
+  DataModule1: TDataModule1;
 
 implementation
 

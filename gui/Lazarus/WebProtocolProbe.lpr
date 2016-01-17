@@ -18,6 +18,7 @@ begin
   Application.Initialize;
   Application.CreateForm(TdmCommom, dmCommom);
   Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.
 
