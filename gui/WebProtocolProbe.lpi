@@ -57,12 +57,12 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="WebProtocolProbe"/>
+      <Filename Value="../bin/WebProtocolProbe-$(TargetOS)-$(TargetCPU)"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
       <OtherUnitFiles Value="../src"/>
-      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      <UnitOutputDirectory Value="../bin/lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
       <Options>

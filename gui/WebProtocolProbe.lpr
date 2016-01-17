@@ -7,7 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, GC.WebProtocolProbe.Forms.Main, GC.WebProtocolProbe.DataModules.Commom
+  Forms, GC.WebProtocolProbe.Forms.Main, GC.WebProtocolProbe.DataModules.dmCommom
   { you can add units after this };
 
 {$R *.res}
