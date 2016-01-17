@@ -12,7 +12,7 @@
     </General>
     <i18n>
       <EnableI18N Value="True"/>
-      <OutDir Value="../i18n"/>
+      <OutDir Value="i18n"/>
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
@@ -47,7 +47,7 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
@@ -55,7 +55,7 @@
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
       </Unit1>
       <Unit2>
-        <Filename Value="../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
+        <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dmCommom"/>
         <ResourceBaseClass Value="DataModule"/>
@@ -66,12 +66,12 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="../bin/WebProtocolProbe-$(TargetOS)-$(TargetCPU)"/>
+      <Filename Value="../../bin/WebProtocolProbe-$(TargetOS)-$(TargetCPU)"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="../src"/>
-      <UnitOutputDirectory Value="../bin/lib/$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="../../src"/>
+      <UnitOutputDirectory Value="../../bin/lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
       <Options>

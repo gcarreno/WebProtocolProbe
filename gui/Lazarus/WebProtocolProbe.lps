@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="WebProtocolProbe.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="82" Y="10"/>
+        <UsageCount Value="23"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmCommom"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommom"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="45" Y="9"/>
+        <UsageCount Value="23"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
+        <ComponentName Value="dmCommom"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="23"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../src/gc.webprotocolprobe.datamodules.commom.pas"/>
+        <ComponentName Value="dmCommom"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>
