@@ -7,10 +7,10 @@ interface
 uses
   Classes, SysUtils, FileUtil;
 
-{ TDataModule1 }
+{ TdmCommon }
 
 type
-  TDataModule1 = class(TDataModule)
+  TdmCommon = class(TDataModule)
   private
     { private declarations }
   public
@@ -18,7 +18,7 @@ type
   end;
 
 var
-  DataModule1: TDataModule1;
+  dmCommon: TdmCommon;
 
 implementation
 

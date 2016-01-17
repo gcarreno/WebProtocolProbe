@@ -3,11 +3,12 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="3" Y="11"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -17,36 +18,62 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="6"/>
-        <CursorPos X="48" Y="30"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="60"/>
+        <CursorPos Y="79"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="dmCommom"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommom"/>
-        <EditorIndex Value="1"/>
-        <CursorPos X="45"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="28"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommon.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="DataModule1"/>
+        <ComponentName Value="dmCommon"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommon"/>
-        <EditorIndex Value="2"/>
-        <UsageCount Value="20"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="4"/>
+        <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GC.WebProtocolProbe.Projects"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="22" Y="15"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit4>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="41" Column="43" TopLine="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="55" Column="5" TopLine="35"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="64" Column="5" TopLine="44"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="58" Column="28" TopLine="42"/>
+      </Position4>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -55,18 +55,16 @@
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
       </Unit1>
       <Unit2>
-        <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="dmCommom"/>
-        <ResourceBaseClass Value="DataModule"/>
-        <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommom"/>
-      </Unit2>
-      <Unit3>
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommon.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="DataModule1"/>
+        <ComponentName Value="dmCommon"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommon"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GC.WebProtocolProbe.Projects"/>
       </Unit3>
     </Units>
   </ProjectOptions>

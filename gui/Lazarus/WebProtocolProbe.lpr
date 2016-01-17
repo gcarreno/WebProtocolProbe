@@ -7,8 +7,9 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, GC.WebProtocolProbe.Forms.Main,
-  GC.WebProtocolProbe.DataModules.dmCommom, virtualtreeview_package
+  Forms, virtualtreeview_package,
+  GC.WebProtocolProbe.Forms.Main,
+  GC.WebProtocolProbe.DataModules.dmCommon, GC.WebProtocolProbe.Projects
   { you can add units after this };
 
 {$R *.res}
@@ -16,9 +17,8 @@ uses
 begin
   RequireDerivedFormResource := True;
   Application.Initialize;
-  Application.CreateForm(TdmCommom, dmCommom);
   Application.CreateForm(TfrmMain, frmMain);
-  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TdmCommon, dmCommon);
   Application.Run;
 end.
 

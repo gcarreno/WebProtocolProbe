@@ -27,10 +27,16 @@ object frmMain: TfrmMain
       Align = alClient
       DefaultText = 'Node'
       Header.AutoSizeIndex = 0
-      Header.Columns = <>
+      Header.Columns = <      
+        item
+          Position = 0
+          Width = 100
+        end>
       Header.DefaultHeight = 17
-      Header.MainColumn = -1
       TabOrder = 0
+      OnFreeNode = vstMainProjectFreeNode
+      OnGetText = vstMainProjectGetText
+      OnGetNodeDataSize = vstMainProjectGetNodeDataSize
     end
   end
   object splMain1: TSplitter
@@ -48,8 +54,8 @@ object frmMain: TfrmMain
     TabOrder = 2
   end
   object mnuMain: TMainMenu
-    left = 256
-    top = 40
+    left = 552
+    top = 16
     object mnuMainFile: TMenuItem
       Caption = '&File'
       object mnuMainFileExit: TMenuItem
@@ -58,8 +64,8 @@ object frmMain: TfrmMain
     end
   end
   object actMain: TActionList
-    left = 336
-    top = 40
+    left = 632
+    top = 16
     object actMainFileExit: TFileExit
       Category = 'File'
       Caption = 'E&xit'

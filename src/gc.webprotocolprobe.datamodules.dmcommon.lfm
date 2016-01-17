@@ -1,7 +1,7 @@
-object DataModule1: TDataModule1
+object dmCommon: TdmCommon
   OldCreateOrder = False
-  Height = 150
-  HorizontalOffset = 361
-  VerticalOffset = 97
-  Width = 150
+  Height = 320
+  HorizontalOffset = 440
+  VerticalOffset = 143
+  Width = 540
 end
