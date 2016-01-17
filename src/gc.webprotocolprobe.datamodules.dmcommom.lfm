@@ -1,0 +1,7 @@
+object dmCommom: TdmCommom
+  OldCreateOrder = False
+  Height = 224
+  HorizontalOffset = 453
+  VerticalOffset = 190
+  Width = 379
+end
