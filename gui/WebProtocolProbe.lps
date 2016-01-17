@@ -7,9 +7,8 @@
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="76" Y="10"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="82" Y="10"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +18,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="4"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="13"/>
+        <CursorPos X="52" Y="35"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -32,8 +33,8 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommom"/>
         <EditorIndex Value="2"/>
-        <CursorPos Y="4"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="52" Y="12"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -45,11 +46,19 @@
         <LoadedDesigner Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="WebProtocolProbe.lpr"/>
         <Caret Line="4"/>
       </Position1>
+      <Position2>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="4"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="29" Column="44" TopLine="12"/>
+      </Position3>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

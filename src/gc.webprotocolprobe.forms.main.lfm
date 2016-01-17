@@ -1,8 +1,9 @@
 object frmMain: TfrmMain
   Left = 424
   Height = 390
-  Top = -615
+  Top = 153
   Width = 596
   Caption = 'frmMain'
+  OnCreate = FormCreate
   LCLVersion = '1.4.0.1'
 end

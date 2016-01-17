@@ -11,10 +11,15 @@
       <Icon Value="0"/>
     </General>
     <i18n>
-      <EnableI18N LFM="False"/>
+      <EnableI18N Value="True"/>
     </i18n>
     <VersionInfo>
-      <StringTable ProductVersion=""/>
+      <UseVersionInfo Value="True"/>
+      <MinorVersionNr Value="1"/>
+      <BuildNr Value="1"/>
+      <Language Value="0809"/>
+      <Attributes pvaDebug="True" pvaPreRelease="True"/>
+      <StringTable LegalCopyright="Gustavo Carreno (c) 2016" ProductName="Web Protocol Probe" ProductVersion="Web Protocol Probe Alpha"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
