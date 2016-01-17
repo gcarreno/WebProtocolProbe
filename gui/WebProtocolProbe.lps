@@ -7,9 +7,9 @@
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="82" Y="10"/>
-        <UsageCount Value="22"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="23"/>
       </Unit0>
       <Unit1>
         <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
@@ -20,9 +20,8 @@
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="13"/>
-        <CursorPos X="52" Y="35"/>
-        <UsageCount Value="22"/>
+        <CursorPos X="45" Y="9"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -32,9 +31,8 @@
         <ComponentName Value="dmCommom"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommom"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="52" Y="12"/>
-        <UsageCount Value="22"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -43,22 +41,53 @@
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="11" HistoryIndex="10">
       <Position1>
-        <Filename Value="WebProtocolProbe.lpr"/>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
         <Caret Line="4"/>
       </Position1>
       <Position2>
         <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="4"/>
+        <Caret Line="29" Column="44" TopLine="12"/>
       </Position2>
       <Position3>
         <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="29" Column="44" TopLine="12"/>
+        <Caret Line="21" Column="21" TopLine="12"/>
       </Position3>
+      <Position4>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="18" Column="16" TopLine="12"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="24" Column="11" TopLine="12"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="26" Column="11" TopLine="13"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="43" Column="71" TopLine="23"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="44" Column="71" TopLine="24"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="45" Column="71" TopLine="25"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="44" Column="3"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="39" Column="4" TopLine="25"/>
+      </Position11>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

@@ -5,12 +5,22 @@ unit GC.WebProtocolProbe.Forms.Main;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
+  ActnList, StdActns, ExtCtrls, VirtualTrees;
 
 { TfrmMain }
 
 type
   TfrmMain = class(TForm)
+    actMain: TActionList;
+    actMainFileExit: TFileExit;
+    mnuMainFileExit: TMenuItem;
+    mnuMainFile: TMenuItem;
+    mnuMain: TMainMenu;
+    panMainContent: TPanel;
+    panMainProject: TPanel;
+    splMain1: TSplitter;
+    vstMainProject: TVirtualStringTree;
     procedure FormCreate(Sender: TObject);
   private
     { private declarations }
@@ -32,7 +42,7 @@ uses
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  Caption:= Format(R_Forms_frmMain_Title, ['0.1.0.1']);
+//
 end;
 
 end.

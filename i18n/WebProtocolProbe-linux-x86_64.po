@@ -1,0 +1,21 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfrmmain.actmainfileexit.caption
+msgctxt "TFRMMAIN.ACTMAINFILEEXIT.CAPTION"
+msgid "E&xit"
+msgstr ""
+
+#: tfrmmain.actmainfileexit.hint
+msgid "Exit"
+msgstr ""
+
+#: tfrmmain.caption
+msgid "Web Protocol Probe v1.0.1.0"
+msgstr ""
+
+#: tfrmmain.mnumainfile.caption
+msgctxt "TFRMMAIN.MNUMAINFILE.CAPTION"
+msgid "&File"
+msgstr ""
+
