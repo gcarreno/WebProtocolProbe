@@ -6,15 +6,46 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ActnList, StdActns, ExtCtrls, VirtualTrees,
+  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
   GC.WebProtocolProbe.Projects;
 
 { TfrmMain }
 
 type
   TfrmMain = class(TForm)
+    actHelpAbout: TAction;
+    actEditUndo: TAction;
+    actEditRedo: TAction;
+    actEditCut: TAction;
+    actEditCopy: TAction;
+    actEditPaste: TAction;
+    Action1: TAction;
+    actProjectClose: TAction;
+    actProjectSave: TAction;
+    actProjectOpen: TAction;
+    actProjectNew: TAction;
     actMain: TActionList;
     actMainFileExit: TFileExit;
+    actProjectSaveAs: TAction;
+    mnuProjectSep2: TMenuItem;
+    mnuProjectSep1: TMenuItem;
+    mnuProjectSaveAs: TMenuItem;
+    mnuProjectClose: TMenuItem;
+    mnuEditPaste: TMenuItem;
+    mnuEditCopy: TMenuItem;
+    mnuEditCut: TMenuItem;
+    mnuEditSep1: TMenuItem;
+    mnuEditRedo: TMenuItem;
+    mnuEditUndo: TMenuItem;
+    mnuProjectSave: TMenuItem;
+    mnuHelpAbout: TMenuItem;
+    mnuProjectOpenRecent: TMenuItem;
+    mnuProjectOpen: TMenuItem;
+    mnuProjectNew: TMenuItem;
+    mnuMainHelp: TMenuItem;
+    mnuMainEdit: TMenuItem;
+    mnuMainView: TMenuItem;
+    mnuMainProject: TMenuItem;
     mnuMainFileExit: TMenuItem;
     mnuMainFile: TMenuItem;
     mnuMain: TMainMenu;
@@ -62,14 +93,14 @@ end;
 procedure TfrmMain.vstMainProjectGetNodeDataSize(Sender: TBaseVirtualTree;
   var NodeDataSize: Integer);
 begin
-  NodeDataSize:= SizeOf(TWPPProject);
+  NodeDataSize:= SizeOf(TWPPProjectR);
 end;
 
 procedure TfrmMain.vstMainProjectGetText(Sender: TBaseVirtualTree;
   Node: PVirtualNode; Column: TColumnIndex; TextType: TVSTTextType;
   var CellText: String);
 var
-  project: PWPPPRoject;
+  project: PWPPPRojectR;
 begin
   project:= Sender.GetNodeData(Node);
   if Assigned(project) then

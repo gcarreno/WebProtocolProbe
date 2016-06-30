@@ -9,7 +9,7 @@ object frmMain: TfrmMain
   Menu = mnuMain
   OnCreate = FormCreate
   Position = poDefault
-  LCLVersion = '1.4.0.1'
+  Visible = False
   object panMainProject: TPanel
     Left = 0
     Height = 516
@@ -62,6 +62,63 @@ object frmMain: TfrmMain
         Action = actMainFileExit
       end
     end
+    object mnuMainEdit: TMenuItem
+      Caption = '&Edit'
+      object mnuEditUndo: TMenuItem
+        Action = actEditUndo
+      end
+      object mnuEditRedo: TMenuItem
+        Action = actEditRedo
+      end
+      object mnuEditSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuEditCut: TMenuItem
+        Action = actEditCut
+      end
+      object mnuEditCopy: TMenuItem
+        Action = actEditCopy
+      end
+      object mnuEditPaste: TMenuItem
+        Action = actEditPaste
+      end
+    end
+    object mnuMainView: TMenuItem
+      Caption = '&View'
+    end
+    object mnuMainProject: TMenuItem
+      Caption = '&Project'
+      object mnuProjectNew: TMenuItem
+        Action = actProjectNew
+      end
+      object mnuProjectSep1: TMenuItem
+        Caption = '-'
+      end
+      object mnuProjectOpen: TMenuItem
+        Action = actProjectOpen
+      end
+      object mnuProjectOpenRecent: TMenuItem
+        Caption = 'Open Recent Project'
+      end
+      object mnuProjectClose: TMenuItem
+        Action = actProjectClose
+      end
+      object mnuProjectSep2: TMenuItem
+        Caption = '-'
+      end
+      object mnuProjectSave: TMenuItem
+        Action = actProjectSave
+      end
+      object mnuProjectSaveAs: TMenuItem
+        Action = actProjectSaveAs
+      end
+    end
+    object mnuMainHelp: TMenuItem
+      Caption = '&Help'
+      object mnuHelpAbout: TMenuItem
+        Action = actHelpAbout
+      end
+    end
   end
   object actMain: TActionList
     left = 632
@@ -71,6 +128,50 @@ object frmMain: TfrmMain
       Caption = 'E&xit'
       Hint = 'Exit'
       ShortCut = 16465
+    end
+    object actProjectNew: TAction
+      Category = 'Project'
+      Caption = 'New Project...'
+    end
+    object actProjectOpen: TAction
+      Category = 'Project'
+      Caption = 'Open Project...'
+    end
+    object actProjectSave: TAction
+      Category = 'Project'
+      Caption = 'Save Project'
+    end
+    object actHelpAbout: TAction
+      Category = 'Help'
+      Caption = 'About'
+    end
+    object actEditUndo: TAction
+      Category = 'Edit'
+      Caption = 'Undo'
+    end
+    object actEditRedo: TAction
+      Category = 'Edit'
+      Caption = 'Redo'
+    end
+    object actEditCut: TAction
+      Category = 'Edit'
+      Caption = 'Cut'
+    end
+    object actEditCopy: TAction
+      Category = 'Edit'
+      Caption = 'Copy'
+    end
+    object actEditPaste: TAction
+      Category = 'Edit'
+      Caption = 'Paste'
+    end
+    object actProjectSaveAs: TAction
+      Category = 'Project'
+      Caption = 'Save Project As...'
+    end
+    object actProjectClose: TAction
+      Category = 'Project'
+      Caption = 'Close'
     end
   end
 end

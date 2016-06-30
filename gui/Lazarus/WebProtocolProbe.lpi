@@ -58,6 +58,7 @@
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommon.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dmCommon"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommon"/>
       </Unit2>

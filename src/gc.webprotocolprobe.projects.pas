@@ -8,11 +8,25 @@ uses
   Classes, SysUtils;
 
 type
+{ TWPPNodeTypes }
+  TWPPNodeTypes = (ntProject);
+
+{ Forward }
+  TWPPProjectO = class;
 { TWPPProject }
-  PWPPPRoject = ^TWPPProject;
-  TWPPProject = record
+  PWPPPRojectR = ^TWPPProjectR;
+  TWPPProjectR = record
     Name: String;
-    FileName: String;
+    NodeType: TWPPNodeTypes;
+  end;
+
+{ TWPPProjectO }
+  TWPPProjectO = class
+  private
+    FName: String;
+    FFileName: String;
+  protected
+  public
   end;
 
 implementation

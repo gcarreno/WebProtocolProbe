@@ -1,6 +1,30 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
+#: tfrmmain.acteditcopy.caption
+msgid "Copy"
+msgstr ""
+
+#: tfrmmain.acteditcut.caption
+msgid "Cut"
+msgstr ""
+
+#: tfrmmain.acteditpaste.caption
+msgid "Paste"
+msgstr ""
+
+#: tfrmmain.acteditredo.caption
+msgid "Redo"
+msgstr ""
+
+#: tfrmmain.acteditundo.caption
+msgid "Undo"
+msgstr ""
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
+msgstr ""
+
 #: tfrmmain.actmainfileexit.caption
 msgctxt "TFRMMAIN.ACTMAINFILEEXIT.CAPTION"
 msgid "E&xit"
@@ -10,12 +34,63 @@ msgstr ""
 msgid "Exit"
 msgstr ""
 
-#: tfrmmain.caption
-msgid "Web Protocol Probe v1.0.1.0"
+#: tfrmmain.actprojectclose.caption
+msgid "Close"
+msgstr ""
+
+#: tfrmmain.actprojectnew.caption
+msgid "New Project..."
+msgstr ""
+
+#: tfrmmain.actprojectopen.caption
+msgid "Open Project..."
+msgstr ""
+
+#: tfrmmain.actprojectsave.caption
+msgid "Save Project"
+msgstr ""
+
+#: tfrmmain.actprojectsaveas.caption
+msgid "Save Project As..."
+msgstr ""
+
+#: tfrmmain.mnueditsep1.caption
+msgctxt "TFRMMAIN.MNUEDITSEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnumainedit.caption
+msgid "&Edit"
 msgstr ""
 
 #: tfrmmain.mnumainfile.caption
 msgctxt "TFRMMAIN.MNUMAINFILE.CAPTION"
 msgid "&File"
+msgstr ""
+
+#: tfrmmain.mnumainhelp.caption
+msgid "&Help"
+msgstr ""
+
+#: tfrmmain.mnumainproject.caption
+msgid "&Project"
+msgstr ""
+
+#: tfrmmain.mnumainview.caption
+msgid "&View"
+msgstr ""
+
+#: tfrmmain.mnuprojectopenrecent.caption
+msgid "Open Recent Project"
+msgstr ""
+
+#: tfrmmain.mnuprojectsep1.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnuprojectsep2.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
+msgid "-"
 msgstr ""
 
