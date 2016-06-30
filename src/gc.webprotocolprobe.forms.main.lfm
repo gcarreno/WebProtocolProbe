@@ -9,6 +9,7 @@ object frmMain: TfrmMain
   Menu = mnuMain
   OnCreate = FormCreate
   Position = poDefault
+  LCLVersion = '1.7'
   Visible = False
   object panMainProject: TPanel
     Left = 0

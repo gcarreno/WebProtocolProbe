@@ -6,8 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
-  GC.WebProtocolProbe.Projects;
+  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees;
 
 { TfrmMain }
 
@@ -67,6 +66,18 @@ type
     { public declarations }
   end;
 
+{ TWPPNodeTypes }
+  TWPPNodeTypes = (ntProject);
+
+{ TWPPNode }
+  PWPPNode = ^TWPPNode;
+  TWPPNode = record
+    Name: String;
+    NodeType: TWPPNodeTypes;
+    Item: TObject;
+  end;
+
+
 var
   frmMain: TfrmMain;
 
@@ -75,7 +86,8 @@ implementation
 {$R *.lfm}
 
 uses
-  GC.WebProtocolProbe.DataModules.dmCommon;
+  GC.WebProtocolProbe.DataModules.dmCommon,
+  GC.WebProtocolProbe.Projects;
 
 { TfrmMain }
 
@@ -93,14 +105,14 @@ end;
 procedure TfrmMain.vstMainProjectGetNodeDataSize(Sender: TBaseVirtualTree;
   var NodeDataSize: Integer);
 begin
-  NodeDataSize:= SizeOf(TWPPProjectR);
+  NodeDataSize:= SizeOf(TWPPNode);
 end;
 
 procedure TfrmMain.vstMainProjectGetText(Sender: TBaseVirtualTree;
   Node: PVirtualNode; Column: TColumnIndex; TextType: TVSTTextType;
   var CellText: String);
 var
-  project: PWPPPRojectR;
+  project: PWPPNode;
 begin
   project:= Sender.GetNodeData(Node);
   if Assigned(project) then

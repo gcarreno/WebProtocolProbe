@@ -8,23 +8,22 @@ uses
   Classes, SysUtils;
 
 type
-{ TWPPNodeTypes }
-  TWPPNodeTypes = (ntProject);
-
-{ Forward }
-  TWPPProjectO = class;
 { TWPPProject }
-  PWPPPRojectR = ^TWPPProjectR;
-  TWPPProjectR = record
-    Name: String;
-    NodeType: TWPPNodeTypes;
-  end;
-
-{ TWPPProjectO }
-  TWPPProjectO = class
+  TWPPProject = class
   private
     FName: String;
+    FDescription: String;
     FFileName: String;
+  protected
+  public
+    property Name: String read FName write FName;
+    property Description: String read FDescription write FDescription;
+    property FileName: String read FFileName write FFileName;
+  end;
+
+{ TWPPProjects }
+  TWPPProjects = class
+  private
   protected
   public
   end;
