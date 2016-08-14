@@ -18,8 +18,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="67"/>
+        <TopLine Value="4"/>
         <CursorPos X="3" Y="90"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
@@ -41,9 +42,8 @@
         <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="GC.WebProtocolProbe.Projects"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="9" Y="18"/>
+        <CursorPos X="31" Y="25"/>
         <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit3>

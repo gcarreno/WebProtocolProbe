@@ -9,7 +9,7 @@ uses
 
 type
 { TWPPProject }
-  TWPPProject = class
+  TWPPProject = class(TOject)
   private
     FName: String;
     FDescription: String;
@@ -22,7 +22,7 @@ type
   end;
 
 { TWPPProjects }
-  TWPPProjects = class
+  TWPPProjects = class(TObject)
   private
   protected
   public
