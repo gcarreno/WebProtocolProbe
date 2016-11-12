@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: Web Protocol Probe 1.x\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: tfrmmain.acteditcopy.caption
+msgid "Copy"
+msgstr "Copiar"
+
+#: tfrmmain.acteditcut.caption
+msgid "Cut"
+msgstr "Cortar"
+
+#: tfrmmain.acteditpaste.caption
+msgid "Paste"
+msgstr "Colar"
+
+#: tfrmmain.acteditredo.caption
+msgid "Redo"
+msgstr "Refazer"
+
+#: tfrmmain.acteditundo.caption
+msgid "Undo"
+msgstr "Desfazer"
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
+msgstr "Sobre"
+
+#: tfrmmain.actmainfileexit.caption
+msgctxt "TFRMMAIN.ACTMAINFILEEXIT.CAPTION"
+msgid "E&xit"
+msgstr "Sair"
+
+#: tfrmmain.actmainfileexit.hint
+msgid "Exit"
+msgstr "Sair"
+
+#: tfrmmain.actprojectclose.caption
+msgid "Close Project"
+msgstr "Fechar Projecto"
+
+#: tfrmmain.actprojectnew.caption
+msgid "New Project..."
+msgstr "Novo Projecto..."
+
+#: tfrmmain.actprojectopen.caption
+msgid "Open Project..."
+msgstr "Abrir Projecto..."
+
+#: tfrmmain.actprojectsave.caption
+msgid "Save Project"
+msgstr "Guardar Projecto"
+
+#: tfrmmain.actprojectsaveas.caption
+msgid "Save Project As..."
+msgstr "Guardar Projecto Como..."
+
+#: tfrmmain.mnueditsep1.caption
+msgctxt "TFRMMAIN.MNUEDITSEP1.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.mnumainedit.caption
+msgid "&Edit"
+msgstr "&Editar"
+
+#: tfrmmain.mnumainfile.caption
+msgctxt "TFRMMAIN.MNUMAINFILE.CAPTION"
+msgid "&File"
+msgstr "&Ficheiro"
+
+#: tfrmmain.mnumainhelp.caption
+msgid "&Help"
+msgstr "Ajuda"
+
+#: tfrmmain.mnumainproject.caption
+msgid "&Project"
+msgstr "&Projecto"
+
+# Is it "view something" or "A view"
+#: tfrmmain.mnumainview.caption
+msgid "&View"
+msgstr "&Ver"
+
+#: tfrmmain.mnuprojectopenrecent.caption
+msgid "Open Recent Project"
+msgstr "Abrir Projecto Recente"
+
+#: tfrmmain.mnuprojectsep1.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP1.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.mnuprojectsep2.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
+msgid "-"
+msgstr "-"
