@@ -7,10 +7,10 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, virtualtreeview_package,
+  Forms, virtualtreeview_package, rxnew,
   GC.WebProtocolProbe.Forms.Main,
   GC.WebProtocolProbe.DataModules.dmCommon, GC.WebProtocolProbe.Projects,
-GC.WebProtocolProbe.Forms.NewProject
+GC.WebProtocolProbe.Forms.NewProject, GC.WebProtocolProbe.Frames.Project
   { you can add units after this };
 
 {$R *.res}

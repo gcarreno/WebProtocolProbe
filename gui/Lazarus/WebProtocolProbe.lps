@@ -3,12 +3,12 @@
   <ProjectSession>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="6">
+    <Units Count="7">
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="3" Y="11"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -18,11 +18,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="58"/>
-        <CursorPos X="36" Y="74"/>
-        <UsageCount Value="31"/>
+        <TopLine Value="212"/>
+        <CursorPos Y="243"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -34,7 +33,7 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommon"/>
         <EditorIndex Value="1"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -42,10 +41,10 @@
         <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="GC.WebProtocolProbe.Projects"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="14"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="23"/>
         <CursorPos X="12" Y="54"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="34"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -55,136 +54,146 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.NewProject"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="21"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="24"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
       <Unit5>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmProject"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="GC.WebProtocolProbe.Frames.Project"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="12" Y="9"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit5>
+      <Unit6>
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
         <ComponentName Value="dmCommom"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="28"/>
         <UsageCount Value="19"/>
-      </Unit5>
+      </Unit6>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="71" Column="4" TopLine="57"/>
+        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
+        <Caret Line="37" TopLine="8"/>
       </Position1>
       <Position2>
         <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
-        <Caret Line="18" Column="15"/>
+        <Caret Line="20" Column="21" TopLine="15"/>
       </Position2>
       <Position3>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="96" Column="24" TopLine="75"/>
+        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
+        <Caret Line="69" Column="41" TopLine="43"/>
       </Position3>
       <Position4>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="97" Column="24" TopLine="76"/>
+        <Caret Line="103" Column="24" TopLine="78"/>
       </Position4>
       <Position5>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="98" Column="24" TopLine="77"/>
+        <Caret Line="114" Column="3" TopLine="112"/>
       </Position5>
       <Position6>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="99" Column="24" TopLine="12"/>
+        <Caret Line="118" Column="17" TopLine="92"/>
       </Position6>
       <Position7>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="101" Column="24"/>
+        <Caret Line="123" Column="28" TopLine="104"/>
       </Position7>
       <Position8>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="102" Column="24" TopLine="75"/>
+        <Caret Line="130" Column="46" TopLine="102"/>
       </Position8>
       <Position9>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="91" Column="3" TopLine="62"/>
+        <Caret Line="132" Column="13" TopLine="111"/>
       </Position9>
       <Position10>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="78" Column="12" TopLine="64"/>
+        <Caret Line="154" Column="3" TopLine="146"/>
       </Position10>
       <Position11>
-        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
-        <Caret Line="25" Column="31"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="159" Column="30" TopLine="144"/>
       </Position11>
       <Position12>
-        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
-        <Caret Line="37" TopLine="8"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="165" Column="6" TopLine="139"/>
       </Position12>
       <Position13>
-        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
-        <Caret Line="20" Column="21" TopLine="15"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="166" TopLine="156"/>
       </Position13>
       <Position14>
-        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
-        <Caret Line="69" Column="41" TopLine="43"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Caret Line="153" TopLine="146"/>
       </Position14>
       <Position15>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="103" Column="24" TopLine="78"/>
+        <Caret Line="127" Column="66" TopLine="113"/>
       </Position15>
       <Position16>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="114" Column="3" TopLine="112"/>
+        <Caret Line="169" Column="33" TopLine="154"/>
       </Position16>
       <Position17>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="118" Column="17" TopLine="92"/>
+        <Caret Line="165" Column="24" TopLine="145"/>
       </Position17>
       <Position18>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="123" Column="28" TopLine="104"/>
+        <Caret Line="154" Column="11" TopLine="132"/>
       </Position18>
       <Position19>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="130" Column="46" TopLine="102"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
       </Position19>
       <Position20>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="132" Column="13" TopLine="111"/>
+        <Caret Line="84" Column="28" TopLine="59"/>
       </Position20>
       <Position21>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="154" Column="3" TopLine="146"/>
+        <Caret Line="220" Column="37" TopLine="195"/>
       </Position21>
       <Position22>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="159" Column="30" TopLine="144"/>
+        <Caret Line="219" Column="37" TopLine="194"/>
       </Position22>
       <Position23>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="165" Column="6" TopLine="139"/>
+        <Caret Line="90" Column="46" TopLine="67"/>
       </Position23>
       <Position24>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="166" TopLine="156"/>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
       </Position24>
       <Position25>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="153" TopLine="146"/>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
       </Position25>
       <Position26>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="127" Column="66" TopLine="113"/>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
       </Position26>
       <Position27>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="169" Column="33" TopLine="154"/>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
+        <Caret Line="9" Column="9"/>
       </Position27>
       <Position28>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="165" Column="24" TopLine="145"/>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
+        <Caret Line="8" Column="71" TopLine="3"/>
       </Position28>
       <Position29>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
-        <Caret Line="154" Column="11" TopLine="132"/>
+        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
+        <Caret Line="9" Column="12" TopLine="3"/>
       </Position29>
       <Position30>
         <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>

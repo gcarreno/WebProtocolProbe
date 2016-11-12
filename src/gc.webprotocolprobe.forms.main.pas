@@ -8,11 +8,17 @@ uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
   ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
   GC.WebProtocolProbe.Forms.NewProject,
+  GC.WebProtocolProbe.Frames.Project,
   GC.WebProtocolProbe.Projects;
 
-{ TfrmMain }
-
 type
+{ TMainFrames }
+  TMainFrames = (mfProject);
+
+{ TWPPNodeTypes }
+  TWPPNodeTypes = (ntProject);
+
+{ TfrmMain }
   TfrmMain = class(TForm)
     actHelpAbout: TAction;
     actEditUndo: TAction;
@@ -28,7 +34,6 @@ type
     actMain: TActionList;
     actMainFileExit: TFileExit;
     actProjectSaveAs: TAction;
-    Memo1: TMemo;
     mnuProjectSep2: TMenuItem;
     mnuProjectSep1: TMenuItem;
     mnuProjectSaveAs: TMenuItem;
@@ -73,17 +78,20 @@ type
     // Forms
     FfrmNewProject: TfrmNewProject;
 
+    // Frames
+    FLastFrame: TFrame;
+    FfrmProject: TfrmProject;
+
     //Projects
     FProjects: TWPPProjects;
 
     procedure CreateNeededObjects;
-    procedure SetActionsEnabled;
+    procedure CreateFrames;
+    procedure ShowFrame(AFrame: TMainFrames);
+    procedure SetActionsStatus;
   public
     { public declarations }
   end;
-
-{ TWPPNodeTypes }
-  TWPPNodeTypes = (ntProject);
 
 { TWPPNode }
   PWPPNode = ^TWPPNode;
@@ -109,7 +117,7 @@ uses
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
   CreateNeededObjects;
-  SetActionsEnabled;
+  SetActionsStatus;
 end;
 
 procedure TfrmMain.FormClose(Sender: TObject; var CloseAction: TCloseAction);
@@ -153,7 +161,7 @@ begin
       end;
     end;
   end;
-  SetActionsEnabled;
+  SetActionsStatus;
 end;
 
 procedure TfrmMain.actProjectNewExecute(Sender: TObject);
@@ -168,7 +176,7 @@ begin
   ProjectNode := vstMainProjects.GetNodeData(PVNode);
   ProjectNode^.Name := Project.Name;
   ProjectNode^.Item := Project;
-  SetActionsEnabled;
+  SetActionsStatus;
 end;
 
 procedure TfrmMain.vstMainProjectsFreeNode(Sender: TBaseVirtualTree;
@@ -198,7 +206,7 @@ begin
   end;
 end;
 
-procedure TfrmMain.SetActionsEnabled;
+procedure TfrmMain.SetActionsStatus;
 begin
   // Set initial state of actions
   actProjectClose.Enabled := FProjects.Count > 0;
@@ -208,6 +216,30 @@ procedure TfrmMain.CreateNeededObjects;
 begin
   // Add Projects Create
   FProjects := TWPPProjects.Create;
+end;
+
+procedure TfrmMain.CreateFrames;
+begin
+  FLastFrame := nil;
+  FfrmProject := TfrmProject.Create(panMainContent);
+  FfrmProject.Parent := panMainContent;
+  FfrmProject.Visible := False;
+end;
+
+procedure TfrmMain.ShowFrame(AFrame: TMainFrames);
+begin
+  if Assigned(FLastFrame) then
+  begin
+    FLastFrame.Visible := False;
+    FLastFrame.SendToBack;
+  end;
+  case AFrame of
+    mfProject:begin
+      FLastFrame := FfrmProject;
+    end;
+  end;
+  FLastFrame.Visible := True;
+  FLastFrame.BringToFront;
 end;
 
 end.

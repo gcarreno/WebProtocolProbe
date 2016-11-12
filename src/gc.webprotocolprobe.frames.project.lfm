@@ -2,7 +2,70 @@ object frmProject: TfrmProject
   Left = 0
   Height = 442
   Top = 0
-  Width = 646
+  Width = 647
   Align = alClient
+  ClientHeight = 442
+  ClientWidth = 647
   TabOrder = 0
+  object panProjectHeader: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 647
+    Align = alTop
+    Caption = 'Project'
+    TabOrder = 0
+  end
+  object lblProjectName: TLabel
+    Left = 8
+    Height = 17
+    Top = 56
+    Width = 40
+    Caption = 'Name'
+    FocusControl = edtProjectName
+    ParentColor = False
+  end
+  object lblProjectDescription: TLabel
+    Left = 8
+    Height = 17
+    Top = 120
+    Width = 80
+    Caption = 'Description'
+    FocusControl = memProjectDescription
+    ParentColor = False
+  end
+  object edtProjectName: TEdit
+    Left = 8
+    Height = 27
+    Top = 80
+    Width = 631
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 1
+  end
+  object memProjectDescription: TMemo
+    Left = 8
+    Height = 90
+    Top = 144
+    Width = 631
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 2
+  end
+  object lblProjectLocation: TLabel
+    Left = 8
+    Height = 17
+    Top = 248
+    Width = 60
+    Caption = 'Location'
+    ParentColor = False
+  end
+  object lblProjectLocationFilename: TRxLabel
+    Left = 8
+    Height = 17
+    Top = 272
+    Width = 631
+    AutoSize = False
+    Color = clWhite
+    Anchors = [akTop, akLeft, akRight]
+    ParentColor = False
+  end
 end

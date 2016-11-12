@@ -104,3 +104,39 @@ msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
 msgid "-"
 msgstr ""
 
+#: tfrmnewproject.btncancel.caption
+msgid "&Cancel"
+msgstr ""
+
+#: tfrmnewproject.btnok.caption
+msgid "&Ok"
+msgstr ""
+
+#: tfrmnewproject.lblprojectdescription.caption
+msgctxt "tfrmnewproject.lblprojectdescription.caption"
+msgid "Description"
+msgstr ""
+
+#: tfrmnewproject.lblprojectname.caption
+msgctxt "tfrmnewproject.lblprojectname.caption"
+msgid "Name"
+msgstr ""
+
+#: tfrmproject.lblprojectdescription.caption
+msgctxt "tfrmproject.lblprojectdescription.caption"
+msgid "Description"
+msgstr ""
+
+#: tfrmproject.lblprojectlocation.caption
+msgid "Location"
+msgstr ""
+
+#: tfrmproject.lblprojectname.caption
+msgctxt "tfrmproject.lblprojectname.caption"
+msgid "Name"
+msgstr ""
+
+#: tfrmproject.panprojectheader.caption
+msgid "Project"
+msgstr ""
+
