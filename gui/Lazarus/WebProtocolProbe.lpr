@@ -20,7 +20,6 @@ begin
   Application.Initialize;
   Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TdmCommon, dmCommon);
-  Application.CreateForm(TfrmNewProject, frmNewProject);
   Application.Run;
 end.
 

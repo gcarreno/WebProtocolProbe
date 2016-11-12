@@ -18,9 +18,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="53"/>
-        <CursorPos X="34" Y="71"/>
+        <TopLine Value="58"/>
+        <CursorPos X="36" Y="74"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -48,24 +49,24 @@
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmNewProject"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GC.WebProtocolProbe.Forms.NewProject"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
         <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommom.pas"/>
         <ComponentName Value="dmCommom"/>
         <ResourceBaseClass Value="DataModule"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="28"/>
         <UsageCount Value="19"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="frmNewProject"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="GC.WebProtocolProbe.Forms.NewProject"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit5>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">

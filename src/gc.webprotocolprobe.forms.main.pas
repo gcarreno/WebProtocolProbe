@@ -72,6 +72,7 @@ type
     { private declarations }
     // Forms
     FfrmNewProject: TfrmNewProject;
+
     //Projects
     FProjects: TWPPProjects;
 

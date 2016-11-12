@@ -1,0 +1,8 @@
+object frmProject: TfrmProject
+  Left = 0
+  Height = 442
+  Top = 0
+  Width = 646
+  Align = alClient
+  TabOrder = 0
+end
