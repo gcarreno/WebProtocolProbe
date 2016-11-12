@@ -7,6 +7,7 @@ interface
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
   ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
+  GC.WebProtocolProbe.Forms.NewProject,
   GC.WebProtocolProbe.Projects;
 
 { TfrmMain }
@@ -69,6 +70,9 @@ type
       var CellText: String);
   private
     { private declarations }
+    // Forms
+    FfrmNewProject: TfrmNewProject;
+    //Projects
     FProjects: TWPPProjects;
 
     procedure CreateNeededObjects;

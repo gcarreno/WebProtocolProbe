@@ -1,0 +1,40 @@
+object frmNewProject: TfrmNewProject
+  Left = 0
+  Height = 420
+  Top = 0
+  Width = 668
+  Caption = 'New Project'
+  ClientHeight = 420
+  ClientWidth = 668
+  Visible = False
+  object lblProjectName: TLabel
+    Left = 16
+    Height = 17
+    Top = 32
+    Width = 40
+    Caption = 'Name'
+    ParentColor = False
+  end
+  object lblProjectDescription: TLabel
+    Left = 16
+    Height = 17
+    Top = 88
+    Width = 80
+    Caption = 'Description'
+    ParentColor = False
+  end
+  object memProjectDescription: TMemo
+    Left = 16
+    Height = 90
+    Top = 112
+    Width = 392
+    TabOrder = 0
+  end
+  object edtProjectName: TEdit
+    Left = 16
+    Height = 27
+    Top = 56
+    Width = 392
+    TabOrder = 1
+  end
+end

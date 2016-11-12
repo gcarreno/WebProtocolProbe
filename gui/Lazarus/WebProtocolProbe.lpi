@@ -41,7 +41,7 @@
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="4">
+    <Units Count="5">
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -67,6 +67,13 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="GC.WebProtocolProbe.Projects"/>
       </Unit3>
+      <Unit4>
+        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmNewProject"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GC.WebProtocolProbe.Forms.NewProject"/>
+      </Unit4>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
