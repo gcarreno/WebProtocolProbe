@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees;
+  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
+  GC.WebProtocolProbe.Projects;
 
 { TfrmMain }
 
@@ -51,17 +52,23 @@ type
     panMainContent: TPanel;
     panMainProject: TPanel;
     splMain1: TSplitter;
-    vstMainProject: TVirtualStringTree;
+    vstMainProjects: TVirtualStringTree;
+    procedure actHelpAboutExecute(Sender: TObject);
+    procedure actProjectCloseExecute(Sender: TObject);
+    procedure actProjectNewExecute(Sender: TObject);
+    procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
+    procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
-    procedure vstMainProjectFreeNode(Sender: TBaseVirtualTree;
+    procedure vstMainProjectsFreeNode(Sender: TBaseVirtualTree;
       Node: PVirtualNode);
-    procedure vstMainProjectGetNodeDataSize(Sender: TBaseVirtualTree;
+    procedure vstMainProjectsGetNodeDataSize(Sender: TBaseVirtualTree;
       var NodeDataSize: Integer);
-    procedure vstMainProjectGetText(Sender: TBaseVirtualTree;
+    procedure vstMainProjectsGetText(Sender: TBaseVirtualTree;
       Node: PVirtualNode; Column: TColumnIndex; TextType: TVSTTextType;
       var CellText: String);
   private
     { private declarations }
+    FProjects: TWPPProjects;
   public
     { public declarations }
   end;
@@ -86,29 +93,85 @@ implementation
 {$R *.lfm}
 
 uses
-  GC.WebProtocolProbe.DataModules.dmCommon,
-  GC.WebProtocolProbe.Projects;
+  GC.WebProtocolProbe.DataModules.dmCommon;
 
 { TfrmMain }
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  //
+  // Add Projects Create
+  FProjects := TWPPProjects.Create;;
 end;
 
-procedure TfrmMain.vstMainProjectFreeNode(Sender: TBaseVirtualTree;
+procedure TfrmMain.actHelpAboutExecute(Sender: TObject);
+begin
+  ShowMessage('About...');
+end;
+
+procedure TfrmMain.actProjectCloseExecute(Sender: TObject);
+var
+  PVNode: PVirtualNode;
+  ProjectNode: PWPPNode;
+  Project: TWPPProject;
+begin
+  if vstMainProjects.SelectedCount > 0 then
+  begin
+    PVNode := vstMainProjects.GetNextSelected(vstMainProjects.RootNode);
+    if Assigned(PVNode) then
+    begin
+      ProjectNode := vstMainProjects.GetNodeData(PVNode);
+      if Assigned(ProjectNode) then
+      begin
+	      Project := ProjectNode^.Item as TWPPProject;
+        if Assigned(Project) then
+        begin
+          FProjects.Delete(Project.Index);
+          ProjectNode^.Item := nil;
+          vstMainProjects.DeleteNode(PVNode);
+        end;
+      end;
+    end;
+  end;
+end;
+
+procedure TfrmMain.actProjectNewExecute(Sender: TObject);
+var
+  PVNode: PVirtualNode;
+  ProjectNode: PWPPNode;
+  Project: TWPPProject;
+begin
+  Project := FProjects.Add;
+  Project.Name := 'Project ' + IntToStr(FProjects.Count);
+  PVNode := vstMainProjects.AddChild(vstMainProjects.RootNode);
+  ProjectNode := vstMainProjects.GetNodeData(PVNode);
+  ProjectNode^.Name := Project.Name;
+  ProjectNode^.Item := Project;
+end;
+
+procedure TfrmMain.FormClose(Sender: TObject; var CloseAction: TCloseAction);
+begin
+  // Add Projects Free
+  FProjects.Free;
+end;
+
+procedure TfrmMain.FormCloseQuery(Sender: TObject; var CanClose: boolean);
+begin
+  CanClose := True;
+end;
+
+procedure TfrmMain.vstMainProjectsFreeNode(Sender: TBaseVirtualTree;
   Node: PVirtualNode);
 begin
   //
 end;
 
-procedure TfrmMain.vstMainProjectGetNodeDataSize(Sender: TBaseVirtualTree;
+procedure TfrmMain.vstMainProjectsGetNodeDataSize(Sender: TBaseVirtualTree;
   var NodeDataSize: Integer);
 begin
-  NodeDataSize:= SizeOf(TWPPNode);
+  NodeDataSize := SizeOf(TWPPNode);
 end;
 
-procedure TfrmMain.vstMainProjectGetText(Sender: TBaseVirtualTree;
+procedure TfrmMain.vstMainProjectsGetText(Sender: TBaseVirtualTree;
   Node: PVirtualNode; Column: TColumnIndex; TextType: TVSTTextType;
   var CellText: String);
 var

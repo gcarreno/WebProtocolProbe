@@ -7,9 +7,10 @@ object frmMain: TfrmMain
   ClientHeight = 516
   ClientWidth = 685
   Menu = mnuMain
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   Position = poDefault
-  LCLVersion = '1.7'
   Visible = False
   object panMainProject: TPanel
     Left = 0
@@ -20,7 +21,7 @@ object frmMain: TfrmMain
     ClientHeight = 516
     ClientWidth = 250
     TabOrder = 0
-    object vstMainProject: TVirtualStringTree
+    object vstMainProjects: TVirtualStringTree
       Left = 1
       Height = 514
       Top = 1
@@ -35,9 +36,9 @@ object frmMain: TfrmMain
         end>
       Header.DefaultHeight = 17
       TabOrder = 0
-      OnFreeNode = vstMainProjectFreeNode
-      OnGetText = vstMainProjectGetText
-      OnGetNodeDataSize = vstMainProjectGetNodeDataSize
+      OnFreeNode = vstMainProjectsFreeNode
+      OnGetText = vstMainProjectsGetText
+      OnGetNodeDataSize = vstMainProjectsGetNodeDataSize
     end
   end
   object splMain1: TSplitter
@@ -133,6 +134,7 @@ object frmMain: TfrmMain
     object actProjectNew: TAction
       Category = 'Project'
       Caption = 'New Project...'
+      OnExecute = actProjectNewExecute
     end
     object actProjectOpen: TAction
       Category = 'Project'
@@ -145,6 +147,7 @@ object frmMain: TfrmMain
     object actHelpAbout: TAction
       Category = 'Help'
       Caption = 'About'
+      OnExecute = actHelpAboutExecute
     end
     object actEditUndo: TAction
       Category = 'Edit'
@@ -173,6 +176,7 @@ object frmMain: TfrmMain
     object actProjectClose: TAction
       Category = 'Project'
       Caption = 'Close'
+      OnExecute = actProjectCloseExecute
     end
   end
 end
