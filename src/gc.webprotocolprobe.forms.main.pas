@@ -27,6 +27,7 @@ type
     actMain: TActionList;
     actMainFileExit: TFileExit;
     actProjectSaveAs: TAction;
+    Memo1: TMemo;
     mnuProjectSep2: TMenuItem;
     mnuProjectSep1: TMenuItem;
     mnuProjectSaveAs: TMenuItem;
@@ -69,6 +70,9 @@ type
   private
     { private declarations }
     FProjects: TWPPProjects;
+
+    procedure CreateNeededObjects;
+    procedure SetActionsEnabled;
   public
     { public declarations }
   end;
@@ -99,8 +103,20 @@ uses
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  // Add Projects Create
-  FProjects := TWPPProjects.Create;;
+  CreateNeededObjects;
+  SetActionsEnabled;
+end;
+
+procedure TfrmMain.FormClose(Sender: TObject; var CloseAction: TCloseAction);
+begin
+  // Add Projects Free
+  FProjects.Free;
+end;
+
+procedure TfrmMain.FormCloseQuery(Sender: TObject; var CanClose: boolean);
+begin
+  // Need to have a flag for unsaved projects
+  CanClose := True;
 end;
 
 procedure TfrmMain.actHelpAboutExecute(Sender: TObject);
@@ -132,6 +148,7 @@ begin
       end;
     end;
   end;
+  SetActionsEnabled;
 end;
 
 procedure TfrmMain.actProjectNewExecute(Sender: TObject);
@@ -146,17 +163,7 @@ begin
   ProjectNode := vstMainProjects.GetNodeData(PVNode);
   ProjectNode^.Name := Project.Name;
   ProjectNode^.Item := Project;
-end;
-
-procedure TfrmMain.FormClose(Sender: TObject; var CloseAction: TCloseAction);
-begin
-  // Add Projects Free
-  FProjects.Free;
-end;
-
-procedure TfrmMain.FormCloseQuery(Sender: TObject; var CanClose: boolean);
-begin
-  CanClose := True;
+  SetActionsEnabled;
 end;
 
 procedure TfrmMain.vstMainProjectsFreeNode(Sender: TBaseVirtualTree;
@@ -184,6 +191,18 @@ begin
       0: CellText := project^.Name;
     end;
   end;
+end;
+
+procedure TfrmMain.SetActionsEnabled;
+begin
+  // Set initial state of actions
+  actProjectClose.Enabled := FProjects.Count > 0;
+end;
+
+procedure TfrmMain.CreateNeededObjects;
+begin
+  // Add Projects Create
+  FProjects := TWPPProjects.Create;
 end;
 
 end.
