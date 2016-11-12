@@ -1,0 +1,94 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfrmmain.acteditcopy.caption
+msgid "Copy"
+msgstr ""
+
+#: tfrmmain.acteditcut.caption
+msgid "Cut"
+msgstr ""
+
+#: tfrmmain.acteditpaste.caption
+msgid "Paste"
+msgstr ""
+
+#: tfrmmain.acteditredo.caption
+msgid "Redo"
+msgstr ""
+
+#: tfrmmain.acteditundo.caption
+msgid "Undo"
+msgstr ""
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
+msgstr ""
+
+#: tfrmmain.actmainfileexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tfrmmain.actmainfileexit.hint
+msgid "Exit"
+msgstr ""
+
+#: tfrmmain.actprojectclose.caption
+msgid "CloseProject"
+msgstr ""
+
+#: tfrmmain.actprojectnew.caption
+msgid "New Project..."
+msgstr ""
+
+#: tfrmmain.actprojectopen.caption
+msgid "Open Project..."
+msgstr ""
+
+#: tfrmmain.actprojectsave.caption
+msgid "Save Project"
+msgstr ""
+
+#: tfrmmain.actprojectsaveas.caption
+msgid "Save Project As..."
+msgstr ""
+
+#: tfrmmain.mnueditsep1.caption
+msgctxt "tfrmmain.mnueditsep1.caption"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnumainedit.caption
+msgid "&Edit"
+msgstr ""
+
+#: tfrmmain.mnumainfile.caption
+msgid "&File"
+msgstr ""
+
+#: tfrmmain.mnumainhelp.caption
+msgid "&Help"
+msgstr ""
+
+#: tfrmmain.mnumainproject.caption
+msgid "&Project"
+msgstr ""
+
+#: tfrmmain.mnumainview.caption
+msgid "&View"
+msgstr ""
+
+#: tfrmmain.mnuprojectopenrecent.caption
+msgid "Open Recent Project"
+msgstr ""
+
+#: tfrmmain.mnuprojectsep1.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfrmmain.mnuprojectsep2.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
+msgid "-"
+msgstr ""
+
