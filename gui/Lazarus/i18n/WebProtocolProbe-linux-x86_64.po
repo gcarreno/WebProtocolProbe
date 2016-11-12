@@ -34,7 +34,7 @@ msgid "Exit"
 msgstr ""
 
 #: tfrmmain.actprojectclose.caption
-msgid "CloseProject"
+msgid "Close Project"
 msgstr ""
 
 #: tfrmmain.actprojectnew.caption

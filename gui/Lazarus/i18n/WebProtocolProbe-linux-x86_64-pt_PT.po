@@ -45,6 +45,8 @@ msgid "Exit"
 msgstr "Sair"
 
 #: tfrmmain.actprojectclose.caption
+#, fuzzy
+#| msgid "CloseProject"
 msgid "Close Project"
 msgstr "Fechar Projecto"
 
@@ -104,3 +106,4 @@ msgstr "-"
 msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
 msgid "-"
 msgstr "-"
+
