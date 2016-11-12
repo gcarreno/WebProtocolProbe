@@ -1,6 +1,6 @@
 # Web Protocol Probe project specific
 /bin
-
+/Research
 
 # Uncomment these types if you want even more clean repository. But be careful.
 # It can make harm to an existing project source. Read explanations below.
