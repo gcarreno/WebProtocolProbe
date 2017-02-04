@@ -31,18 +31,21 @@ msgstr "Refazer"
 msgid "Undo"
 msgstr "Desfazer"
 
-#: tfrmmain.acthelpabout.caption
-msgid "About"
-msgstr "Sobre"
-
-#: tfrmmain.actmainfileexit.caption
-msgctxt "TFRMMAIN.ACTMAINFILEEXIT.CAPTION"
+#: tfrmmain.actfileexit.caption
+#, fuzzy
+msgctxt "tfrmmain.actfileexit.caption"
 msgid "E&xit"
 msgstr "Sair"
 
-#: tfrmmain.actmainfileexit.hint
+#: tfrmmain.actfileexit.hint
+#, fuzzy
+msgctxt "tfrmmain.actfileexit.hint"
 msgid "Exit"
 msgstr "Sair"
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
+msgstr "Sobre"
 
 #: tfrmmain.actprojectclose.caption
 #, fuzzy

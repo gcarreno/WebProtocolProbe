@@ -31,17 +31,18 @@ msgstr ""
 msgid "Undo"
 msgstr ""
 
-#: tfrmmain.acthelpabout.caption
-msgid "About"
-msgstr ""
-
-#: tfrmmain.actmainfileexit.caption
-msgctxt "TFRMMAIN.ACTMAINFILEEXIT.CAPTION"
+#: tfrmmain.actfileexit.caption
+msgctxt "tfrmmain.actfileexit.caption"
 msgid "E&xit"
 msgstr ""
 
-#: tfrmmain.actmainfileexit.hint
+#: tfrmmain.actfileexit.hint
+msgctxt "tfrmmain.actfileexit.hint"
 msgid "Exit"
+msgstr ""
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
 msgstr ""
 
 #: tfrmmain.actprojectclose.caption

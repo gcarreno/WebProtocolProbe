@@ -11,49 +11,61 @@ object frmMain: TfrmMain
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   Position = poDefault
+  SessionProperties = 'Top;Left;Width;Height;WindowState;psMain.Position'
   Visible = False
-  object panMainProject: TPanel
+  object psMain: TPairSplitter
     Left = 0
     Height = 516
     Top = 0
-    Width = 250
-    Align = alLeft
-    ClientHeight = 516
-    ClientWidth = 250
-    TabOrder = 0
-    object vstMainProjects: TVirtualStringTree
-      Left = 1
-      Height = 514
-      Top = 1
-      Width = 248
-      Align = alClient
-      DefaultText = 'Node'
-      Header.AutoSizeIndex = 0
-      Header.Columns = <      
-        item
-          Position = 0
-          Width = 100
-        end>
-      Header.DefaultHeight = 17
-      TabOrder = 0
-      OnFreeNode = vstMainProjectsFreeNode
-      OnGetText = vstMainProjectsGetText
-      OnGetNodeDataSize = vstMainProjectsGetNodeDataSize
-    end
-  end
-  object splMain1: TSplitter
-    Left = 250
-    Height = 516
-    Top = 0
-    Width = 5
-  end
-  object panMainContent: TPanel
-    Left = 255
-    Height = 516
-    Top = 0
-    Width = 430
+    Width = 685
     Align = alClient
-    TabOrder = 2
+    Position = 200
+    object pssTree: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 516
+      Top = 0
+      Width = 200
+      ClientWidth = 200
+      ClientHeight = 516
+      object vstMainProjects: TVirtualStringTree
+        Left = 0
+        Height = 516
+        Top = 0
+        Width = 200
+        Align = alClient
+        DefaultText = 'Node'
+        Header.AutoSizeIndex = 0
+        Header.Columns = <        
+          item
+            Position = 0
+            Width = 100
+          end>
+        Header.DefaultHeight = 17
+        TabOrder = 0
+        OnChange = vstMainProjectsChange
+        OnFreeNode = vstMainProjectsFreeNode
+        OnGetText = vstMainProjectsGetText
+        OnGetNodeDataSize = vstMainProjectsGetNodeDataSize
+      end
+    end
+    object pssContent: TPairSplitterSide
+      Cursor = crArrow
+      Left = 205
+      Height = 516
+      Top = 0
+      Width = 480
+      ClientWidth = 480
+      ClientHeight = 516
+      object panContent: TPanel
+        Left = 0
+        Height = 516
+        Top = 0
+        Width = 480
+        Align = alClient
+        TabOrder = 0
+      end
+    end
   end
   object mnuMain: TMainMenu
     left = 552
@@ -61,7 +73,7 @@ object frmMain: TfrmMain
     object mnuMainFile: TMenuItem
       Caption = '&File'
       object mnuMainFileExit: TMenuItem
-        Action = actMainFileExit
+        Action = actFileExit
       end
     end
     object mnuMainEdit: TMenuItem
@@ -125,7 +137,7 @@ object frmMain: TfrmMain
   object actMain: TActionList
     left = 632
     top = 16
-    object actMainFileExit: TFileExit
+    object actFileExit: TFileExit
       Category = 'File'
       Caption = 'E&xit'
       Hint = 'Exit'
@@ -178,5 +190,10 @@ object frmMain: TfrmMain
       Caption = 'Close Project'
       OnExecute = actProjectCloseExecute
     end
+  end
+  object IniPropStorage: TIniPropStorage
+    StoredValues = <>
+    left = 552
+    top = 96
   end
 end

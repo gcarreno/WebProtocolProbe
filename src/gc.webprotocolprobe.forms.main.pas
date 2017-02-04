@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ActnList, StdActns, ExtCtrls, StdCtrls, VirtualTrees,
+  ActnList, StdActns, ExtCtrls, StdCtrls, PairSplitter, VirtualTrees,
+  LCLType, IniPropStorage,
   GC.WebProtocolProbe.Forms.NewProject,
   GC.WebProtocolProbe.Frames.Project,
   GC.WebProtocolProbe.Projects;
@@ -32,8 +33,9 @@ type
     actProjectOpen: TAction;
     actProjectNew: TAction;
     actMain: TActionList;
-    actMainFileExit: TFileExit;
+    actFileExit: TFileExit;
     actProjectSaveAs: TAction;
+    IniPropStorage: TIniPropStorage;
     mnuProjectSep2: TMenuItem;
     mnuProjectSep1: TMenuItem;
     mnuProjectSaveAs: TMenuItem;
@@ -56,9 +58,10 @@ type
     mnuMainFileExit: TMenuItem;
     mnuMainFile: TMenuItem;
     mnuMain: TMainMenu;
-    panMainContent: TPanel;
-    panMainProject: TPanel;
-    splMain1: TSplitter;
+    panContent: TPanel;
+    psMain: TPairSplitter;
+    pssTree: TPairSplitterSide;
+    pssContent: TPairSplitterSide;
     vstMainProjects: TVirtualStringTree;
     procedure actHelpAboutExecute(Sender: TObject);
     procedure actProjectCloseExecute(Sender: TObject);
@@ -66,6 +69,8 @@ type
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCloseQuery(Sender: TObject; var CanClose: boolean);
     procedure FormCreate(Sender: TObject);
+    procedure vstMainProjectsChange(Sender: TBaseVirtualTree; Node: PVirtualNode
+      );
     procedure vstMainProjectsFreeNode(Sender: TBaseVirtualTree;
       Node: PVirtualNode);
     procedure vstMainProjectsGetNodeDataSize(Sender: TBaseVirtualTree;
@@ -89,6 +94,8 @@ type
     procedure CreateFrames;
     procedure ShowFrame(AFrame: TMainFrames);
     procedure SetActionsStatus;
+    procedure SetShortCuts;
+    procedure SetConfigFile;
   public
     { public declarations }
   end;
@@ -116,8 +123,17 @@ uses
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
+  SetConfigFile;
+  SetShortCuts;
   CreateNeededObjects;
+  CreateFrames;
   SetActionsStatus;
+end;
+
+procedure TfrmMain.vstMainProjectsChange(Sender: TBaseVirtualTree;
+  Node: PVirtualNode);
+begin
+  ShowFrame(mfProject);
 end;
 
 procedure TfrmMain.FormClose(Sender: TObject; var CloseAction: TCloseAction);
@@ -212,6 +228,21 @@ begin
   actProjectClose.Enabled := FProjects.Count > 0;
 end;
 
+procedure TfrmMain.SetShortCuts;
+begin
+  {$IFDEF LINUX}
+    actFileExit.ShortCut := KeyToShortCut(VK_Q, [ssCtrl]);
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+    actFileExit.ShortCut := KeyToShortCut(VK_X, [ssAlt]);
+  {$ENDIF}
+end;
+
+procedure TfrmMain.SetConfigFile;
+begin
+  IniPropStorage.IniFileName := GetAppConfigFile(False);
+end;
+
 procedure TfrmMain.CreateNeededObjects;
 begin
   // Add Projects Create
@@ -221,8 +252,8 @@ end;
 procedure TfrmMain.CreateFrames;
 begin
   FLastFrame := nil;
-  FfrmProject := TfrmProject.Create(panMainContent);
-  FfrmProject.Parent := panMainContent;
+  FfrmProject := TfrmProject.Create(panContent);
+  FfrmProject.Parent := panContent;
   FfrmProject.Visible := False;
 end;
 

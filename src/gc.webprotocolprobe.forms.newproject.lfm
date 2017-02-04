@@ -6,6 +6,9 @@ object frmNewProject: TfrmNewProject
   Caption = 'New Project'
   ClientHeight = 420
   ClientWidth = 649
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
   Visible = False
   object banNewProject: TBanner
     Left = 0
