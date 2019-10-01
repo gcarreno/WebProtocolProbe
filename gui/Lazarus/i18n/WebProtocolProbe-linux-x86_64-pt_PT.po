@@ -1,15 +1,11 @@
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: Web Protocol Probe 1.x\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_PT\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Web Protocol Probe\n"
+"Language: pt\n"
 
 #: tfrmmain.acteditcopy.caption
 msgid "Copy"
@@ -31,25 +27,19 @@ msgstr "Refazer"
 msgid "Undo"
 msgstr "Desfazer"
 
-#: tfrmmain.actfileexit.caption
-#, fuzzy
-msgctxt "tfrmmain.actfileexit.caption"
-msgid "E&xit"
-msgstr "Sair"
-
-#: tfrmmain.actfileexit.hint
-#, fuzzy
-msgctxt "tfrmmain.actfileexit.hint"
-msgid "Exit"
-msgstr "Sair"
-
 #: tfrmmain.acthelpabout.caption
 msgid "About"
 msgstr "Sobre"
 
+#: tfrmmain.actmainfileexit.caption
+msgid "E&xit"
+msgstr "&Sair"
+
+#: tfrmmain.actmainfileexit.hint
+msgid "Exit"
+msgstr "Sair"
+
 #: tfrmmain.actprojectclose.caption
-#, fuzzy
-#| msgid "CloseProject"
 msgid "Close Project"
 msgstr "Fechar Projecto"
 
@@ -70,7 +60,7 @@ msgid "Save Project As..."
 msgstr "Guardar Projecto Como..."
 
 #: tfrmmain.mnueditsep1.caption
-msgctxt "TFRMMAIN.MNUEDITSEP1.CAPTION"
+msgctxt "tfrmmain.mnueditsep1.caption"
 msgid "-"
 msgstr "-"
 
@@ -79,19 +69,17 @@ msgid "&Edit"
 msgstr "&Editar"
 
 #: tfrmmain.mnumainfile.caption
-msgctxt "TFRMMAIN.MNUMAINFILE.CAPTION"
 msgid "&File"
 msgstr "&Ficheiro"
 
 #: tfrmmain.mnumainhelp.caption
 msgid "&Help"
-msgstr "Ajuda"
+msgstr "&Ajuda"
 
 #: tfrmmain.mnumainproject.caption
 msgid "&Project"
 msgstr "&Projecto"
 
-# Is it "view something" or "A view"
 #: tfrmmain.mnumainview.caption
 msgid "&View"
 msgstr "&Ver"
@@ -112,37 +100,37 @@ msgstr "-"
 
 #: tfrmnewproject.btncancel.caption
 msgid "&Cancel"
-msgstr ""
+msgstr "&Cancelar"
 
 #: tfrmnewproject.btnok.caption
 msgid "&Ok"
-msgstr ""
+msgstr "&Ok"
 
 #: tfrmnewproject.lblprojectdescription.caption
 msgctxt "tfrmnewproject.lblprojectdescription.caption"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: tfrmnewproject.lblprojectname.caption
 msgctxt "tfrmnewproject.lblprojectname.caption"
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: tfrmproject.lblprojectdescription.caption
-msgctxt "tfrmproject.lblprojectdescription.caption"
+msgctxt "TFRMPROJECT.LBLPROJECTDESCRIPTION.CAPTION"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #: tfrmproject.lblprojectlocation.caption
 msgid "Location"
-msgstr ""
+msgstr "Caminho"
 
 #: tfrmproject.lblprojectname.caption
-msgctxt "tfrmproject.lblprojectname.caption"
+msgctxt "TFRMPROJECT.LBLPROJECTNAME.CAPTION"
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: tfrmproject.panprojectheader.caption
 msgid "Project"
-msgstr ""
+msgstr "Projecto"
 
