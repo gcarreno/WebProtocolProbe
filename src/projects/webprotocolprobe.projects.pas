@@ -8,6 +8,9 @@ uses
   Classes, SysUtils;
 
 type
+
+{ #todo 99 -ogcarreno : Generate these classes with lazContainerGen }
+
 { TWPPProject }
   TWPPProject = class(TCollectionItem)
   private

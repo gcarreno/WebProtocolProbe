@@ -2,7 +2,7 @@
 <CONFIG>
   <ProjectGroup FileVersion="2">
     <Targets>
-      <Target FileName="gui/Lazarus/WebProtocolProbe.lpi">
+      <Target FileName="src/WebProtocolProbe.lpi">
         <BuildModes>
           <Mode Name="Default"/>
         </BuildModes>

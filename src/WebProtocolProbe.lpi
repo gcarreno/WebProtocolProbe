@@ -56,7 +56,7 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="../../src/forms/webprotocolprobe.forms.main.pas"/>
+        <Filename Value="forms/webprotocolprobe.forms.main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
@@ -64,7 +64,7 @@
         <UnitName Value="WebProtocolProbe.Forms.Main"/>
       </Unit1>
       <Unit2>
-        <Filename Value="../../src/datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
+        <Filename Value="datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dmCommon"/>
         <HasResources Value="True"/>
@@ -72,12 +72,12 @@
         <UnitName Value="WebProtocolProbe.DataModules.dmCommon"/>
       </Unit2>
       <Unit3>
-        <Filename Value="../../src/projects/webprotocolprobe.projects.pas"/>
+        <Filename Value="projects/webprotocolprobe.projects.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="WebProtocolProbe.Projects"/>
       </Unit3>
       <Unit4>
-        <Filename Value="../../src/forms/webprotocolprobe.forms.newproject.pas"/>
+        <Filename Value="forms/webprotocolprobe.forms.newproject.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmNewProject"/>
         <HasResources Value="True"/>
@@ -85,7 +85,7 @@
         <UnitName Value="WebProtocolProbe.Forms.NewProject"/>
       </Unit4>
       <Unit5>
-        <Filename Value="../../src/frames/webprotocolprobe.frames.project.pas"/>
+        <Filename Value="frames/webprotocolprobe.frames.project.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmProject"/>
         <HasResources Value="True"/>
@@ -97,12 +97,12 @@
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="../../bin/WebProtocolProbe-$(TargetOS)-$(TargetCPU)"/>
+      <Filename Value="../bin/WebProtocolProbe-$(TargetOS)-$(TargetCPU)"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="../../src;../../src/forms;../../src/datamodules;../../src/frames;../../src/projects"/>
-      <UnitOutputDirectory Value="../../bin/lib/$(TargetCPU)-$(TargetOS)"/>
+      <OtherUnitFiles Value="forms;datamodules;frames;projects"/>
+      <UnitOutputDirectory Value="../bin/lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
       <Options>
