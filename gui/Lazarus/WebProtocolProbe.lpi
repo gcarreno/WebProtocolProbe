@@ -53,41 +53,41 @@
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
+        <Filename Value="../../src/forms/webprotocolprobe.forms.main.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="GC.WebProtocolProbe.Forms.Main"/>
+        <UnitName Value="WebProtocolProbe.Forms.Main"/>
       </Unit1>
       <Unit2>
-        <Filename Value="../../src/gc.webprotocolprobe.datamodules.dmcommon.pas"/>
+        <Filename Value="../../src/datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dmCommon"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <UnitName Value="GC.WebProtocolProbe.DataModules.dmCommon"/>
+        <UnitName Value="WebProtocolProbe.DataModules.dmCommon"/>
       </Unit2>
       <Unit3>
-        <Filename Value="../../src/gc.webprotocolprobe.projects.pas"/>
+        <Filename Value="../../src/projects/webprotocolprobe.projects.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="GC.WebProtocolProbe.Projects"/>
+        <UnitName Value="WebProtocolProbe.Projects"/>
       </Unit3>
       <Unit4>
-        <Filename Value="../../src/gc.webprotocolprobe.forms.newproject.pas"/>
+        <Filename Value="../../src/forms/webprotocolprobe.forms.newproject.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmNewProject"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="GC.WebProtocolProbe.Forms.NewProject"/>
+        <UnitName Value="WebProtocolProbe.Forms.NewProject"/>
       </Unit4>
       <Unit5>
-        <Filename Value="../../src/gc.webprotocolprobe.frames.project.pas"/>
+        <Filename Value="../../src/frames/webprotocolprobe.frames.project.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmProject"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
-        <UnitName Value="GC.WebProtocolProbe.Frames.Project"/>
+        <UnitName Value="WebProtocolProbe.Frames.Project"/>
       </Unit5>
     </Units>
   </ProjectOptions>
@@ -98,7 +98,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="../../src"/>
+      <OtherUnitFiles Value="../../src;../../src/forms;../../src/datamodules;../../src/frames;../../src/projects"/>
       <UnitOutputDirectory Value="../../bin/lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

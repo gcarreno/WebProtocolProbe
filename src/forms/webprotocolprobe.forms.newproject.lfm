@@ -9,8 +9,7 @@ object frmNewProject: TfrmNewProject
   OnClose = FormClose
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  Visible = False
-
+  LCLVersion = '2.1.0.0'
   object lblProjectName: TLabel
     Left = 8
     Height = 17

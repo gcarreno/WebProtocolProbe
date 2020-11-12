@@ -1,4 +1,4 @@
-unit GC.WebProtocolProbe.Projects;
+unit WebProtocolProbe.Projects;
 
 {$mode objfpc}{$H+}
 

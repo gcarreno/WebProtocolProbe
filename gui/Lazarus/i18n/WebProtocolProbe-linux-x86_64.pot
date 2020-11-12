@@ -65,9 +65,8 @@ msgstr ""
 msgid "Save Project As..."
 msgstr ""
 
-#: tfrmmain.mnueditsep1.caption
-msgctxt "tfrmmain.mnueditsep1.caption"
-msgid "-"
+#: tfrmmain.caption
+msgid "Web Protocol Probe v1.0.1.0"
 msgstr ""
 
 #: tfrmmain.mnumainedit.caption
@@ -94,22 +93,16 @@ msgstr ""
 msgid "Open Recent Project"
 msgstr ""
 
-#: tfrmmain.mnuprojectsep1.caption
-msgctxt "TFRMMAIN.MNUPROJECTSEP1.CAPTION"
-msgid "-"
-msgstr ""
-
-#: tfrmmain.mnuprojectsep2.caption
-msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
-msgid "-"
-msgstr ""
-
 #: tfrmnewproject.btncancel.caption
 msgid "&Cancel"
 msgstr ""
 
 #: tfrmnewproject.btnok.caption
 msgid "&Ok"
+msgstr ""
+
+#: tfrmnewproject.caption
+msgid "New Project"
 msgstr ""
 
 #: tfrmnewproject.lblprojectdescription.caption

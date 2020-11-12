@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":132301556,"name":"tfrmnewproject.caption","sourcebytes":[78,101,119,32,80,114,111,106,101,99,116],"value":"New Project"},
+{"hash":346165,"name":"tfrmnewproject.lblprojectname.caption","sourcebytes":[78,97,109,101],"value":"Name"},
+{"hash":156067838,"name":"tfrmnewproject.lblprojectdescription.caption","sourcebytes":[68,101,115,99,114,105,112,116,105,111,110],"value":"Description"},
+{"hash":11099,"name":"tfrmnewproject.btnok.caption","sourcebytes":[38,79,107],"value":"&Ok"},
+{"hash":177752476,"name":"tfrmnewproject.btncancel.caption","sourcebytes":[38,67,97,110,99,101,108],"value":"&Cancel"}
+]}

@@ -1,4 +1,4 @@
-unit GC.WebProtocolProbe.DataModules.dmCommon;
+unit WebProtocolProbe.DataModules.dmCommon;
 
 {$mode objfpc}{$H+}
 

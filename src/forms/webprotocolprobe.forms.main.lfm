@@ -12,8 +12,9 @@ object frmMain: TfrmMain
   OnCreate = FormCreate
   Position = poDefault
   SessionProperties = 'Top;Left;Width;Height;WindowState;psMain.Position'
-  Visible = False
+  LCLVersion = '2.1.0.0'
   object psMain: TPairSplitter
+    Cursor = crDefault
     Left = 0
     Height = 516
     Top = 0
@@ -42,6 +43,7 @@ object frmMain: TfrmMain
             Width = 100
           end>
         Header.DefaultHeight = 17
+        Header.Height = 17
         TabOrder = 0
         OnChange = vstMainProjectsChange
         OnFreeNode = vstMainProjectsFreeNode
@@ -68,8 +70,8 @@ object frmMain: TfrmMain
     end
   end
   object mnuMain: TMainMenu
-    left = 552
-    top = 16
+    Left = 552
+    Top = 16
     object mnuMainFile: TMenuItem
       Caption = '&File'
       object mnuMainFileExit: TMenuItem
@@ -135,8 +137,8 @@ object frmMain: TfrmMain
     end
   end
   object actMain: TActionList
-    left = 632
-    top = 16
+    Left = 632
+    Top = 16
     object actFileExit: TFileExit
       Category = 'File'
       Caption = 'E&xit'
@@ -193,7 +195,7 @@ object frmMain: TfrmMain
   end
   object IniPropStorage: TIniPropStorage
     StoredValues = <>
-    left = 552
-    top = 96
+    Left = 552
+    Top = 96
   end
 end

@@ -1,0 +1,22 @@
+{"version":1,"strings":[
+{"hash":177826768,"name":"tfrmmain.caption","sourcebytes":[87,101,98,32,80,114,111,116,111,99,111,108,32,80,114,111,98,101,32,118,49,46,48,46,49,46,48],"value":"Web Protocol Probe v1.0.1.0"},
+{"hash":2805797,"name":"tfrmmain.mnumainfile.caption","sourcebytes":[38,70,105,108,101],"value":"&File"},
+{"hash":2800388,"name":"tfrmmain.mnumainedit.caption","sourcebytes":[38,69,100,105,116],"value":"&Edit"},
+{"hash":2871239,"name":"tfrmmain.mnumainview.caption","sourcebytes":[38,86,105,101,119],"value":"&View"},
+{"hash":127273236,"name":"tfrmmain.mnumainproject.caption","sourcebytes":[38,80,114,111,106,101,99,116],"value":"&Project"},
+{"hash":177100836,"name":"tfrmmain.mnuprojectopenrecent.caption","sourcebytes":[79,112,101,110,32,82,101,99,101,110,116,32,80,114,111,106,101,99,116],"value":"Open Recent Project"},
+{"hash":2812976,"name":"tfrmmain.mnumainhelp.caption","sourcebytes":[38,72,101,108,112],"value":"&Help"},
+{"hash":4710148,"name":"tfrmmain.actfileexit.caption","sourcebytes":[69,38,120,105,116],"value":"E&xit"},
+{"hash":315140,"name":"tfrmmain.actfileexit.hint","sourcebytes":[69,120,105,116],"value":"Exit"},
+{"hash":204418862,"name":"tfrmmain.actprojectnew.caption","sourcebytes":[78,101,119,32,80,114,111,106,101,99,116,46,46,46],"value":"New Project..."},
+{"hash":213868622,"name":"tfrmmain.actprojectopen.caption","sourcebytes":[79,112,101,110,32,80,114,111,106,101,99,116,46,46,46],"value":"Open Project..."},
+{"hash":36621556,"name":"tfrmmain.actprojectsave.caption","sourcebytes":[83,97,118,101,32,80,114,111,106,101,99,116],"value":"Save Project"},
+{"hash":4691652,"name":"tfrmmain.acthelpabout.caption","sourcebytes":[65,98,111,117,116],"value":"About"},
+{"hash":378031,"name":"tfrmmain.acteditundo.caption","sourcebytes":[85,110,100,111],"value":"Undo"},
+{"hash":363439,"name":"tfrmmain.acteditredo.caption","sourcebytes":[82,101,100,111],"value":"Redo"},
+{"hash":19140,"name":"tfrmmain.acteditcut.caption","sourcebytes":[67,117,116],"value":"Cut"},
+{"hash":304761,"name":"tfrmmain.acteditcopy.caption","sourcebytes":[67,111,112,121],"value":"Copy"},
+{"hash":5671589,"name":"tfrmmain.acteditpaste.caption","sourcebytes":[80,97,115,116,101],"value":"Paste"},
+{"hash":73838078,"name":"tfrmmain.actprojectsaveas.caption","sourcebytes":[83,97,118,101,32,80,114,111,106,101,99,116,32,65,115,46,46,46],"value":"Save Project As..."},
+{"hash":230988980,"name":"tfrmmain.actprojectclose.caption","sourcebytes":[67,108,111,115,101,32,80,114,111,106,101,99,116],"value":"Close Project"}
+]}

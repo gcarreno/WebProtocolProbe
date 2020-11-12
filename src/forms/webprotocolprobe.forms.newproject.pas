@@ -1,4 +1,4 @@
-unit GC.WebProtocolProbe.Forms.NewProject;
+unit WebProtocolProbe.Forms.NewProject;
 
 {$mode objfpc}{$H+}
 
@@ -14,14 +14,12 @@ uses
 , Dialogs
 , ExtCtrls
 , StdCtrls
-//, Codebot.Controls.Banner
 ;
 
 { TfrmNewProject }
 
 type
   TfrmNewProject = class(TForm)
-    //banNewProject: TBanner;
     btnOk: TButton;
     btnCancel: TButton;
     edtProjectName: TEdit;

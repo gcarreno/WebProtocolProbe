@@ -1,16 +1,30 @@
-unit GC.WebProtocolProbe.Forms.Main;
+unit WebProtocolProbe.Forms.Main;
 
 {$mode objfpc}{$H+}
 
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ActnList, StdActns, ExtCtrls, StdCtrls, PairSplitter, VirtualTrees,
-  LCLType, IniPropStorage,
-  GC.WebProtocolProbe.Forms.NewProject,
-  GC.WebProtocolProbe.Frames.Project,
-  GC.WebProtocolProbe.Projects;
+  Classes
+, SysUtils
+, FileUtil
+, Forms
+, Controls
+, Graphics
+, Dialogs
+, Menus
+, ActnList
+, StdActns
+, ExtCtrls
+, StdCtrls
+, PairSplitter
+, VirtualTrees
+, LCLType
+, IniPropStorage
+, WebProtocolProbe.Forms.NewProject
+, WebProtocolProbe.Frames.Project
+, WebProtocolProbe.Projects
+;
 
 type
 { TMainFrames }
@@ -117,7 +131,7 @@ implementation
 {$R *.lfm}
 
 uses
-  GC.WebProtocolProbe.DataModules.dmCommon;
+  WebProtocolProbe.DataModules.dmCommon;
 
 { TfrmMain }
 
