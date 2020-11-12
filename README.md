@@ -7,8 +7,8 @@ Can be used to test Web APIs and/or REST APIs
 ## Dependencies
 
 * Virtual TreeView 
- * Can be found here: [Insert Label](http://www.example.com)
+   * Can be found here: [GitHub repo](https://github.com/JAM-Software/Virtual-TreeView)
+   * Can be found on the Online Package Manager on Lazarus
 * RX Controls
- * Can be found here: [Insert Label](http://www.example.com)
-* Code Bot
- * Can be found here: [Insert Label](http://www.example.com)
+   * Can be found here: [Sourceforge Repo](https://svn.code.sf.net/p/lazarus-ccr/svn/components/rx)
+   * Can be found on the Online Package Manager on Lazarus
