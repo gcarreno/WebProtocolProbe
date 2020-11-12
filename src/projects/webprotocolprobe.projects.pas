@@ -43,8 +43,7 @@ implementation
 
 constructor TWPPProject.Create(ACollection: TCollection);
 begin
-	if Assigned(ACollection) then
-		inherited Create(ACollection);
+  inherited Create(ACollection);
 end;
 
 { TWPPProjects }

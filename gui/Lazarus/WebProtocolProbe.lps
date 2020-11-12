@@ -7,7 +7,6 @@
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos Y="26"/>
         <UsageCount Value="36"/>
         <Loaded Value="True"/>
@@ -19,7 +18,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="WebProtocolProbe.Forms.Main"/>
+        <EditorIndex Value="1"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="../../src/datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
@@ -28,13 +30,18 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="WebProtocolProbe.DataModules.dmCommon"/>
+        <EditorIndex Value="2"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="../../src/projects/webprotocolprobe.projects.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="WebProtocolProbe.Projects"/>
+        <EditorIndex Value="3"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="../../src/forms/webprotocolprobe.forms.newproject.pas"/>
@@ -43,7 +50,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="WebProtocolProbe.Forms.NewProject"/>
+        <EditorIndex Value="4"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="../../src/frames/webprotocolprobe.frames.project.pas"/>
@@ -52,7 +62,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="WebProtocolProbe.Frames.Project"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="../../src/webprotocolprobe.forms.main.pas"/>
@@ -64,7 +78,6 @@
         <TopLine Value="124"/>
         <CursorPos X="3" Y="134"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="../../src/webprotocolprobe.datamodules.dmcommon.pas"/>
@@ -74,7 +87,6 @@
         <UnitName Value="WebProtocolProbe.DataModules.dmCommon"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="../../src/webprotocolprobe.projects.pas"/>
@@ -92,7 +104,6 @@
         <TopLine Value="32"/>
         <CursorPos Y="23"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit9>
       <Unit10>
         <Filename Value="../../src/webprotocolprobe.frames.project.pas"/>
@@ -102,7 +113,6 @@
         <UnitName Value="WebProtocolProbe.Frames.Project"/>
         <EditorIndex Value="-1"/>
         <UsageCount Value="20"/>
-        <LoadedDesigner Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="../../src/gc.webprotocolprobe.forms.main.pas"/>
@@ -160,7 +170,7 @@
         <UsageCount Value="19"/>
       </Unit16>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
         <Filename Value="WebProtocolProbe.lpr"/>
         <Caret Line="11" Column="3"/>
@@ -189,6 +199,9 @@
         <Filename Value="WebProtocolProbe.lpr"/>
         <Caret Line="26"/>
       </Position7>
+      <Position8>
+        <Filename Value="../../src/frames/webprotocolprobe.frames.project.pas"/>
+      </Position8>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
