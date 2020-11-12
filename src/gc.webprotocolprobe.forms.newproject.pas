@@ -5,14 +5,23 @@ unit GC.WebProtocolProbe.Forms.NewProject;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
-  StdCtrls, Codebot.Controls.Banner;
+  Classes
+, SysUtils
+, FileUtil
+, Forms
+, Controls
+, Graphics
+, Dialogs
+, ExtCtrls
+, StdCtrls
+//, Codebot.Controls.Banner
+;
 
 { TfrmNewProject }
 
 type
   TfrmNewProject = class(TForm)
-    banNewProject: TBanner;
+    //banNewProject: TBanner;
     btnOk: TButton;
     btnCancel: TButton;
     edtProjectName: TEdit;

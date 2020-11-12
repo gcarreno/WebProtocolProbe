@@ -5,8 +5,15 @@ unit GC.WebProtocolProbe.Frames.Project;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, ExtCtrls, StdCtrls, RXCtrls,
-  AutoPanel;
+  Classes
+, SysUtils
+, FileUtil
+, Forms
+, Controls
+, ExtCtrls
+, StdCtrls
+, RXCtrls
+;
 
 { TfrmProject }
 

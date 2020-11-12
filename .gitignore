@@ -1,6 +1,7 @@
 # Web Protocol Probe project specific
 /bin
 /Research
+*.partial
 
 # Compiled l10n files: .mo should be ignored
 *.mo
