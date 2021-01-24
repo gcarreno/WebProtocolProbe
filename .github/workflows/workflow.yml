@@ -23,10 +23,10 @@ jobs:
       uses: gcarreno/setup-lazarus@v2.2.6
       with:
         lazarus-version: ${{ matrix.lazarus-versions }}
-        include-packages: "LCLExtensions, VirtualTreeView V5, Rx, Synapse 40.1"
-    - name: Build the Main App
-      run: lazbuild --bm=Release "src/WebProtocolProbe.lpi"
+#        include-packages: "LCLExtensions, VirtualTreeView V5, Rx, Synapse 40.1"
+#    - name: Build the Main App
+#      run: lazbuild --bm=Release "src/WebProtocolProbe.lpi"
 #    - name: Build the Test App
-#      run: lazbuild --bm=Release "tests/testlazJSONViewer.lpi"
+#      run: lazbuild --bm=Release "tests/testWebProtocolProbe.lpi"
 #    - name: Run the Test App
-#      run: bin/testlazJSONViewer "--all" "--format=plain"
+#      run: bin/testWebProtocolProbe "--all" "--format=plain"
