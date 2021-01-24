@@ -7,7 +7,6 @@
       <Unit0>
         <Filename Value="WebProtocolProbe.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos Y="26"/>
         <UsageCount Value="37"/>
         <Loaded Value="True"/>
@@ -19,7 +18,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="WebProtocolProbe.Forms.Main"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
@@ -64,7 +67,6 @@
         <TopLine Value="258"/>
         <CursorPos Y="290"/>
         <UsageCount Value="21"/>
-        <LoadedDesigner Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="../../src/datamodules/webprotocolprobe.datamodules.dmcommon.pas"/>
