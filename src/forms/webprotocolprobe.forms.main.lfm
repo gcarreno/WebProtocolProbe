@@ -12,7 +12,9 @@ object frmMain: TfrmMain
   OnCreate = FormCreate
   Position = poDefault
   SessionProperties = 'Top;Left;Width;Height;WindowState;psMain.Position'
+  LCLVersion = '2.1.0.0'
   object psMain: TPairSplitter
+    Cursor = crDefault
     Left = 0
     Height = 516
     Top = 0
