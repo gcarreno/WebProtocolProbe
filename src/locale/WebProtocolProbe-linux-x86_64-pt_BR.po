@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
 "Project-Id-Version: Web Protocol Probe\n"
-"Language: pt\n"
+"Language: pt_BR\n"
 
 #: tfrmmain.acteditcopy.caption
 msgid "Copy"
