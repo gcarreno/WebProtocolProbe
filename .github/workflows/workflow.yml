@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         operating-system: [ubuntu-latest,windows-latest,macos-latest]
-        lazarus-versions: [stable, 2.0.10, 2.0.6]
+        lazarus-versions: [stable, 2.0.10]
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -25,8 +25,8 @@ jobs:
         lazarus-version: ${{ matrix.lazarus-versions }}
 #        include-packages: "LCLExtensions, VirtualTreeView V5, Rx, Synapse 40.1"
 #    - name: Build the Main App
-#      run: lazbuild --bm=Release "src/WebProtocolProbe.lpi"
+#      run: lazbuild -B --bm=Release "src/WebProtocolProbe.lpi"
 #    - name: Build the Test App
-#      run: lazbuild --bm=Release "tests/testWebProtocolProbe.lpi"
+#      run: lazbuild -B --bm=Release "tests/testWebProtocolProbe.lpi"
 #    - name: Run the Test App
 #      run: bin/testWebProtocolProbe "--all" "--format=plain"
