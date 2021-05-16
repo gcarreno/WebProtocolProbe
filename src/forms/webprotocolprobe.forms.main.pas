@@ -16,11 +16,12 @@ uses
 , ActnList
 , StdActns
 , ExtCtrls
-, StdCtrls
+//, StdCtrls
 , PairSplitter
 , VirtualTrees
 , LCLType
 , IniPropStorage
+, DefaultTranslator
 , WebProtocolProbe.Forms.NewProject
 , WebProtocolProbe.Frames.Project
 , WebProtocolProbe.Projects
@@ -131,7 +132,8 @@ implementation
 {$R *.lfm}
 
 uses
-  WebProtocolProbe.DataModules.dmCommon;
+  WebProtocolProbe.DataModules.dmCommon
+;
 
 { TfrmMain }
 
