@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Web Protocol Probe\n"
+"Language: pt\n"
+
+#: tfrmmain.acteditcopy.caption
+msgid "Copy"
+msgstr "Copiar"
+
+#: tfrmmain.acteditcut.caption
+msgid "Cut"
+msgstr "Cortar"
+
+#: tfrmmain.acteditpaste.caption
+msgid "Paste"
+msgstr "Colar"
+
+#: tfrmmain.acteditredo.caption
+msgid "Redo"
+msgstr "Refazer"
+
+#: tfrmmain.acteditundo.caption
+msgid "Undo"
+msgstr "Desfazer"
+
+#: tfrmmain.acthelpabout.caption
+msgid "About"
+msgstr "Sobre"
+
+#: tfrmmain.actmainfileexit.caption
+msgid "E&xit"
+msgstr "&Sair"
+
+#: tfrmmain.actmainfileexit.hint
+msgid "Exit"
+msgstr "Sair"
+
+#: tfrmmain.actprojectclose.caption
+msgid "Close Project"
+msgstr "Fechar Projecto"
+
+#: tfrmmain.actprojectnew.caption
+msgid "New Project..."
+msgstr "Novo Projecto..."
+
+#: tfrmmain.actprojectopen.caption
+msgid "Open Project..."
+msgstr "Abrir Projecto..."
+
+#: tfrmmain.actprojectsave.caption
+msgid "Save Project"
+msgstr "Guardar Projecto"
+
+#: tfrmmain.actprojectsaveas.caption
+msgid "Save Project As..."
+msgstr "Guardar Projecto Como..."
+
+#: tfrmmain.mnueditsep1.caption
+msgctxt "tfrmmain.mnueditsep1.caption"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.mnumainedit.caption
+msgid "&Edit"
+msgstr "&Editar"
+
+#: tfrmmain.mnumainfile.caption
+msgid "&File"
+msgstr "&Ficheiro"
+
+#: tfrmmain.mnumainhelp.caption
+msgid "&Help"
+msgstr "&Ajuda"
+
+#: tfrmmain.mnumainproject.caption
+msgid "&Project"
+msgstr "&Projecto"
+
+#: tfrmmain.mnumainview.caption
+msgid "&View"
+msgstr "&Ver"
+
+#: tfrmmain.mnuprojectopenrecent.caption
+msgid "Open Recent Project"
+msgstr "Abrir Projecto Recente"
+
+#: tfrmmain.mnuprojectsep1.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP1.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmmain.mnuprojectsep2.caption
+msgctxt "TFRMMAIN.MNUPROJECTSEP2.CAPTION"
+msgid "-"
+msgstr "-"
+
+#: tfrmnewproject.btncancel.caption
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+#: tfrmnewproject.btnok.caption
+msgid "&Ok"
+msgstr "&Ok"
+
+#: tfrmnewproject.lblprojectdescription.caption
+msgctxt "tfrmnewproject.lblprojectdescription.caption"
+msgid "Description"
+msgstr "Descrição"
+
+#: tfrmnewproject.lblprojectname.caption
+msgctxt "tfrmnewproject.lblprojectname.caption"
+msgid "Name"
+msgstr "Nome"
+
+#: tfrmproject.lblprojectdescription.caption
+msgctxt "TFRMPROJECT.LBLPROJECTDESCRIPTION.CAPTION"
+msgid "Description"
+msgstr "Descrição"
+
+#: tfrmproject.lblprojectlocation.caption
+msgid "Location"
+msgstr "Caminho"
+
+#: tfrmproject.lblprojectname.caption
+msgctxt "TFRMPROJECT.LBLPROJECTNAME.CAPTION"
+msgid "Name"
+msgstr "Nome"
+
+#: tfrmproject.panprojectheader.caption
+msgid "Project"
+msgstr "Projecto"
+

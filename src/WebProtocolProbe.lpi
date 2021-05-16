@@ -14,7 +14,7 @@
     </General>
     <i18n>
       <EnableI18N Value="True"/>
-      <OutDir Value="i18n"/>
+      <OutDir Value="locale"/>
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
